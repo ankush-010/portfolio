@@ -1,0 +1,4 @@
+<!-- PLACEHOLDER: Replace this file with your actual resume PDF -->
+<!-- Place your resume at: portfolio/public/resume.pdf -->
+<!-- Then update the resumePath in src/data/personal.ts if you change the filename -->
+This is a placeholder file. Replace with your actual resume PDF.
