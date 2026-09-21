@@ -13,9 +13,9 @@ const personal: PersonalInfo = {
 
   email: 'ankushkumawat112@gmail.com',
 
-  location: 'Pilani, Rajasthan, India',
+  location: 'Jhunjhunu, Rajasthan, India',
   resumePath: '/resume.pdf',
-  resumeAvailable: false, // Set to true after placing resume.pdf in public/
+  resumeAvailable: true, // Set to true after placing resume.pdf in public/
   openToWork: true,
   canonicalUrl: (import.meta.env.VITE_SITE_URL as string | undefined) ?? 'https://your-domain.com',
 }

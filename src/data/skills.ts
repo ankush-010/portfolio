@@ -7,8 +7,8 @@ const skills: SkillGroup[] = [
     skills: [
       { name: 'Java', level: 'primary' },
       { name: 'Python', level: 'secondary' },
-      { name: 'JavaScript', level: 'secondary' },
-      { name: 'TypeScript', level: 'secondary' },
+      // { name: 'JavaScript', level: 'secondary' },
+      // { name: 'TypeScript', level: 'secondary' },
       { name: 'SQL', level: 'primary' },
     ],
   },
@@ -53,8 +53,6 @@ const skills: SkillGroup[] = [
     skills: [
       { name: 'DSA', level: 'primary' },
       { name: 'OOP', level: 'primary' },
-      { name: 'Operating Systems', level: 'secondary' },
-      { name: 'Computer Networks', level: 'secondary' },
     ],
   },
   {
@@ -69,15 +67,15 @@ const skills: SkillGroup[] = [
       { name: 'Postman', level: 'primary' },
     ],
   },
-  {
-    category: 'AI & Cloud',
-    icon: 'brain',
-    skills: [
-      { name: 'IBM watsonx.ai', level: 'primary' },
-      { name: 'Cloud Computing', level: 'secondary' },
-      { name: 'DevOps', level: 'secondary' },
-    ],
-  },
+  // {
+  //   category: 'AI & Cloud',
+  //   icon: 'brain',
+  //   skills: [
+  //     { name: 'IBM watsonx.ai', level: 'primary' },
+  //     { name: 'Cloud Computing', level: 'secondary' },
+  //     { name: 'DevOps', level: 'secondary' },
+  //   ],
+  // },
 ]
 
 export default skills
