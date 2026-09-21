@@ -13,7 +13,7 @@ import {
 import SectionHeading from '../components/ui/SectionHeading'
 import { cn } from '../lib/utils'
 import skills from '../data/skills'
-import type { SkillGroup } from '../types'
+import type { SkillGroup } from '../sections/types'
 
 // Maps icon string identifiers from data to Lucide components
 const iconMap: Record<string, ElementType> = {

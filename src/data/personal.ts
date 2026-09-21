@@ -1,4 +1,4 @@
-import type { PersonalInfo } from '../types'
+import type { PersonalInfo } from '../sections/types'
 
 const personal: PersonalInfo = {
   name: 'Ankush Kumar',
@@ -14,7 +14,7 @@ const personal: PersonalInfo = {
   email: 'ankushkumawat112@gmail.com',
 
   location: 'Jhunjhunu, Rajasthan, India',
-  resumePath: '/resume.pdf',
+  resumePath: '/Ankush_Kumar_Resume.pdf',
   resumeAvailable: true, // Set to true after placing resume.pdf in public/
   openToWork: true,
   canonicalUrl: (import.meta.env.VITE_SITE_URL as string | undefined) ?? 'https://your-domain.com',

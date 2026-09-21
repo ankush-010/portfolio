@@ -1,7 +1,7 @@
 import type { ElementType } from 'react'
 import { Github, Linkedin, Mail, Code, Trophy, BookOpen } from 'lucide-react'
 import { cn, externalLink, isPlaceholder } from '../lib/utils'
-import type { Social } from '../types'
+import type { Social } from '../sections/types'
 
 interface SocialLinksProps {
   socials: Social[]

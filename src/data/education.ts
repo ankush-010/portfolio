@@ -1,4 +1,4 @@
-import type { EducationEntry } from '../types'
+import type { EducationEntry } from '../sections/types'
 
 const education: EducationEntry[] = [
   {

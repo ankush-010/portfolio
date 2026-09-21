@@ -1,7 +1,7 @@
 import { useState, type ChangeEvent, type FocusEvent, type FormEvent } from 'react'
 import { Send, CheckCircle, AlertCircle, Loader } from 'lucide-react'
 import { cn } from '../lib/utils'
-import type { ContactFormData, FormStatus } from '../types'
+import type { ContactFormData, FormStatus } from '../sections/types'
 import personal from '../data/personal'
 
 // Validation helpers

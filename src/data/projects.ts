@@ -1,4 +1,4 @@
-import type { Project } from '../types'
+import type { Project } from '../sections/types'
 
 // ── Projects are populated from real workspace data ─────────────────────────
 // Architecture descriptions and features come directly from the project READMEs

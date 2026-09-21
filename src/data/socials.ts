@@ -1,4 +1,4 @@
-import type { Social, CodingProfile } from '../types'
+import type { Social, CodingProfile } from '../sections/types'
 
 // ── PLACEHOLDERS — Replace all PLACEHOLDER_* values before deploying ────────
 // These are deliberately marked so they are easy to find and update.

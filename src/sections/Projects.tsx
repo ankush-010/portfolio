@@ -6,7 +6,7 @@ import Tag from '../components/ui/Tag'
 import ProjectModal from '../components/ProjectModal'
 import { cn, isPlaceholder, externalLink } from '../lib/utils'
 import projects from '../data/projects'
-import type { Project } from '../types'
+import type { Project } from '../sections/types'
 
 // All unique categories for filter tabs
 const ALL_CATEGORIES = ['All', ...Array.from(new Set(projects.flatMap((p) => p.category)))]
