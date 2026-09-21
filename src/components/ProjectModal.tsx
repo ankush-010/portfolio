@@ -4,7 +4,7 @@ import { motion, AnimatePresence, useReducedMotion } from 'framer-motion'
 import { X, Github, ExternalLink, CheckCircle, Zap, BookOpen, AlertTriangle } from 'lucide-react'
 import Tag from './ui/Tag'
 import Button from './ui/Button'
-import { externalLink, isPlaceholder } from '../lib/utils'
+import { isPlaceholder } from '../lib/utils'
 import type { Project } from '../types'
 
 interface ProjectModalProps {
